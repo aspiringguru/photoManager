@@ -1,0 +1,115 @@
+cd /mnt/d/2019_working/coding/qld_road_crashes
+jupyter notebook --ip='*' --NotebookApp.token='' --NotebookApp.password='' --port 9999
+http://localhost:9999
+http://localhost:8888/
+
+
+list all subdirectories.
+loop through all subdirectories.
+check if subdir with 'name' exists, create if not.
+get list of all jpg files with canon file name format
+  check if filename exists in the subdir, if not:
+    resize photo, apply watermark, create new file with extension to show dir_1234_date_time, write file.
+
+
+
+
+
+
+https://stackoverflow.com/questions/45087638/get-image-filename-from-image-pil
+im = Image.open(r'c:\temp\temp.jpg')
+>>> im.filename
+not always
+
+
+
+from PIL import Image
+
+http://www.blog.pythonlibrary.org/2017/10/17/how-to-watermark-your-photos-with-python/
+
+
+https://justindonato.com/notebook/how-to-post-a-photo-to-facebook-with-python.html
+https://stackoverflow.com/questions/34393982/upload-image-to-facebook-using-the-python-api
+
+
+https://pypi.org/project/rawkit/
+https://rawkit.readthedocs.io/en/latest/
+https://jabriffa.wordpress.com/2016/01/21/scripts-for-reading-and-writing-canon-raw-files/
+unmaintained?? in dec 2019
+
+https://pysource.com/2019/09/03/detect-when-an-image-is-blurry-opencv-with-python/
+image quality assessment
+https://towardsdatascience.com/automatic-image-quality-assessment-in-python-391a6be52c11
+
+https://www.learnopencv.com/image-quality-assessment-brisque/
+https://www.pyimagesearch.com/2015/09/07/blur-detection-with-opencv/
+
+this looks useful
+https://www.pyimagesearch.com/2015/09/07/blur-detection-with-opencv/
+
+
+
+friday_10_2850
+friday_10_2991
+friday_11_3250
+friday_12_3900
+friday_12_4750
+friday_12_4807
+-------------new album
+friday_12_4808
+Friday_14_5702
+Friday_14_6221
+-------------new album
+Friday_14_6222
+Friday_18_6996
+Friday_19_7974
+
+-------------new album
+Saturday_1_8811
+Saturday_1_9123
+Saturday_1_9547
+Saturday_1_9900
+Saturday_1_9999
+-------------new album
+Saturday_4_1111
+Saturday_4_1713
+-------------new album
+Saturday_5_1716
+Saturday_5_2283
+-------------new album
+Saturday_6_2284
+Saturday_6_2738
+-------------new album
+-------------new album
+
+-------------new album
+
+-------------new album
+Saturday_9_2994
+Saturday_9_2825
+-------------new album
+Saturday_12_4816
+Saturday_12_3798
+-------------new album
+
+Saturday_13_5107
+Saturday_13_4817
+-------------new album
+Saturday_14_5475
+Saturday_14_5108
+
+
+-------------new album
+Sunday_-2_4027
+Sunday_-2_4467
+-------------new album
+Sunday_-3_4760
+Sunday_-3_4468
+-------------new album
+
+Sunday_-4_3378
+Sunday_-4_4026
+-------------new album
+Sunday_-4_3377
+Sunday_-4_2660
+-------------new album
